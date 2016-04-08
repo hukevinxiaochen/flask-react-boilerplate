@@ -1,0 +1,8 @@
+# virtualenv
+ENV
+
+# cached compiled python files
+*.pyc
+
+# UNIX socket files
+*.sock
