@@ -6,3 +6,6 @@ ENV
 
 # UNIX socket files
 *.sock
+
+# bower components, i.e. front-end libraries
+/bower_components
