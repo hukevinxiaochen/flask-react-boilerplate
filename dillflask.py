@@ -1,7 +1,10 @@
 from flask import Flask
+from flask import render_template
+from flask.ext.bower import Bower
+
 app = Flask(__name__)
 
-from flask import render_template
+Bower(app)
 
 @app.route("/editor")
 def editor():
