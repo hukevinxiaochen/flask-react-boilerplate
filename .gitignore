@@ -9,3 +9,6 @@ ENV
 
 # bower components, i.e. front-end libraries
 /bower_components
+
+# node packages
+/node_modules
