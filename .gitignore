@@ -4,6 +4,9 @@ ENV
 # cached compiled python files
 *.pyc
 
+# flask logs
+flask-log.txt
+
 # UNIX socket files
 *.sock
 
