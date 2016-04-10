@@ -1,6 +1,6 @@
 //main.js
-require('es6-promise').polyfill();
-require('isomorphic-fetch');
+// require('es6-promise').polyfill();
+// require('isomorphic-fetch');
 
 var React = require('react');
 var ReactDOM = require('react-dom');
