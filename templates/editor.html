@@ -27,18 +27,17 @@
 
   <!-- 2 - Skeleton row -->
   <div class="row">
-    <div class="editor-form-cont one-half column">
-      <form method="post" action="/parser">
-	<p><textarea name="mdeditor" style="width: 100%"></textarea></p>
-      </form>
+    <div id="mdeditor" class="one-half column">
+			<!-- React should render something here -->
     </div>
     <div class="one-half column">
     </div> 
   </div>
   
   <!-- SCRIPTS  -->
-  <script src="{{ url_for('bower.static', filename='jquery/dist/jquery.js') }}"></script>
-  <script src="{{ url_for('static', filename='js/editor.js') }}"></script> 
+	<script src="{{ url_for('/', filename='main.js') }}"></script>
+	<!-- <script src="{{ url_for('bower.static', filename='jquery/dist/jquery.js') }}"></script> -->
+	<!-- <script src="{{ url_for('static', filename='js/editor.js') }}"></script> -->
 </div>
 </body>
 </html>
