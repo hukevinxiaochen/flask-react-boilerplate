@@ -16,8 +16,5 @@ flask-log.txt
 # node packages
 /node_modules
 
-# browserified JSX and React stuff
-static/bundle.js
-
 # python-version file for use with systems using pyenv
 .python-version
