@@ -5,6 +5,13 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
+// Styles
+
+var editorStyle = {
+    width: "100%"
+};
+
+// Components
 var Editor = React.createClass({
     onEditorChg: function (event) {
         console.log(event.type);
@@ -12,13 +19,10 @@ var Editor = React.createClass({
     },
     render: function () {
         return(
-            <div>
             <form action="/login" method="POST">
-              <input type="text" name="officecode" />
-              <textarea name="mdinputarea" onChange={this.onEditorChg}></textarea>
-              <input type="submit" value="Submit" />
+            <textarea name="mdinputarea" onChange={this.onEditorChg} style={editorStyle}></textarea>
+            <input type="submit" value="Submit" />
             </form>
-            </div>
         );
     }
 });
