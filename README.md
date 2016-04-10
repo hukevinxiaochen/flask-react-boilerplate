@@ -2,7 +2,7 @@
 
 An implementation of [dillinger.io](https://github.com/joemccann/dillinger) using [Flask](http://flask.pocoo.org/).
 
-This uses *React* and more JavaScript packages so you should have `npm`, and then install `browserify` globally.
+This uses *React* and more JavaScript packages so you should have `npm`, which comes with *Node*. Install `browserify` globally.
 
 `npm install -g browserify`
 
