@@ -12,3 +12,6 @@ ENV
 
 # node packages
 /node_modules
+
+# browserified JSX and React stuff
+static/bundle.js
