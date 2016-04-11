@@ -16,7 +16,7 @@
 	<div class="container">
 
 		<!-- 1 - Skeleton row -->
-		<div class="row">
+		<div id="header" class="row">
 			<div class="one-half column">
 				<h1>Editor</h1>
 			</div>
@@ -25,14 +25,8 @@
 			</div>
 		</div>
 
-		<!-- 2 - Skeleton row -->
-		<div class="row">
-			<div id="mdeditor" class="one-half column">
-				<!-- React should render something here -->
-			</div>
-			<div class="one-half column">
-			</div> 
-		</div>
+		<!-- 2 - Skeleton row - React components render here -->
+		<div id="interpreter" class="row"></div>
 		
 		<!-- SCRIPTS  -->
 		<script src="{{ url_for('static', filename='bundle.js') }}"></script>
