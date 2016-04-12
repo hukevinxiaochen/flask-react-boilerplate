@@ -1,20 +1,20 @@
 # virtualenv
 ENV
 
-# cached compiled python files
-*.pyc
+# UNIX socket files
+*.sock
 
 # flask logs
 flask-log.txt
 
-# UNIX socket files
-*.sock
-
-# bower components, i.e. front-end libraries
-/bower_components
+# cached compiled python files
+*.pyc
 
 # node packages
 /node_modules
 
 # python-version file for use with systems using pyenv
 .python-version
+
+# browserify outputs
+*bundle.js
