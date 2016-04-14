@@ -1,11 +1,19 @@
 from flask import Flask
 from flask import render_template
+from flask import request
 
 app = Flask(__name__)
+
+# Debug mode. Be sure to comment out in production.
+app.debug = True
 
 @app.route("/editor")
 def editor():
     return render_template("editor.html")
+
+@app.route("/prev", methods = ['GET', 'POST'])
+def preview(): 
+    return request.data
 
 @app.route("/")
 def hello():
