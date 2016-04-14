@@ -12,8 +12,9 @@ def editor():
     return render_template("editor.html")
 
 @app.route("/prev", methods = ['GET', 'POST'])
-def preview(): 
-    return request.data
+def preview():
+    resp = "I'ma parse dis shit eventually" + request.data.decode()
+    return resp
 
 @app.route("/")
 def hello():

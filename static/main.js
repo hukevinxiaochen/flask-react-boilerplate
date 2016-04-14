@@ -4,32 +4,14 @@
  * Front-end libraries we rely on.
  * - React
  * - markdown-it
- *
+ * - underscore
 * */
 
 var React = require('react');
 var ReactDOM = require('react-dom');
 var md = require('markdown-it')();
+var _ = require('underscore');
 // var ajax = require('./ajax');
-
-var sendPreviewXhr = function (mdPayload) {
-    var previewXhr = new XMLHttpRequest();
-
-    previewXhr.onreadystatechange = function () {
-        if (previewXhr.readyState == 4) {
-            if ((previewXhr.status >= 200 && previewXhr.status < 300) || previewXhr.status == 304){
-                       alert(previewXhr.responseText);
-            } else {
-                    alert("Request was unsuccessful:" + previewXhr.status);
-            }
-        }
-    };
-
-    // (String(method), String(url), Boolean(async)) 
-    previewXhr.open("post", "/prev", true);
-
-    previewXhr.send(mdPayload);
-};
 
 // React Components
 var editorStyle = {
@@ -63,11 +45,32 @@ var Interpreter = React.createClass({
     getInitialState: function () {
         return {data: []};
     },
+    xhr: _.debounce(function (mdPayload) {
+        console.log(typeof(mdPayload));
+        var previewXhr = new XMLHttpRequest();
+        self = this;
+        previewXhr.onreadystatechange = function () {
+            if (previewXhr.readyState == 4) {
+                if ((previewXhr.status >= 200 && previewXhr.status < 300) || previewXhr.status == 304){
+                        // alert(previewXhr.responseText);
+                        self.setState({data: [previewXhr.responseText]});
+                } else {
+                        alert("Request was unsuccessful:" + previewXhr.status);
+                }
+            }
+        }
+
+        // (String(method), String(url), Boolean(async)) 
+        previewXhr.open("post", "/prev", true);
+
+        previewXhr.send(mdPayload);
+    }, 500),
     onEditorChg: function (event) {
         console.log(event.type);
         console.log(event.target.value);
-        this.setState({data: [event.target.value]});
-        sendPreviewXhr(this.data);
+        var mdPayload = event.target.value;
+        this.xhr(mdPayload);
+        // this.setState({data: [mdPayload]});
     },
     render: function () {
         return (
