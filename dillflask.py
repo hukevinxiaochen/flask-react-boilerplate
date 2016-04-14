@@ -5,7 +5,7 @@ from flask import request
 app = Flask(__name__)
 
 # Debug mode. Be sure to comment out in production.
-app.debug = True
+# app.debug = True
 
 @app.route("/editor")
 def editor():
