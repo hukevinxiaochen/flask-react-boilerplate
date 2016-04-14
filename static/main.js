@@ -10,6 +10,26 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var md = require('markdown-it')();
+// var ajax = require('./ajax');
+
+var sendPreviewXhr = function (mdPayload) {
+    var previewXhr = new XMLHttpRequest();
+
+    previewXhr.onreadystatechange = function () {
+        if (previewXhr.readyState == 4) {
+            if ((previewXhr.status >= 200 && previewXhr.status < 300) || previewXhr.status == 304){
+                       alert(previewXhr.responseText);
+            } else {
+                    alert("Request was unsuccessful:" + previewXhr.status);
+            }
+        }
+    };
+
+    // (String(method), String(url), Boolean(async)) 
+    previewXhr.open("post", "/prev", true);
+
+    previewXhr.send(mdPayload);
+};
 
 // React Components
 var editorStyle = {
@@ -47,6 +67,7 @@ var Interpreter = React.createClass({
         console.log(event.type);
         console.log(event.target.value);
         this.setState({data: [event.target.value]});
+        sendPreviewXhr(this.data);
     },
     render: function () {
         return (
