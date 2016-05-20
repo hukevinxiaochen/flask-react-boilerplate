@@ -13,8 +13,5 @@ flask-log.txt
 # node packages
 /node_modules
 
-# python-version file for use with systems using pyenv
-.python-version
-
 # browserify outputs
 *bundle.js
