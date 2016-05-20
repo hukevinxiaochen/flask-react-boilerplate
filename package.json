@@ -1,27 +1,19 @@
 {
-  "name": "dill-flask",
-  "version": "0.2.0",
-  "description": "A React Flask thing.",
-  "main": "main.js",
+  "name": "wedding-website",
+  "version": "0.1.0",
+  "description": "A React-ion in a Flask.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hukevinxiaochen/dill-flask.git"
+    "url": "git+https://github.com/hukevinxiaochen/Flask-React.git"
   },
   "author": "Kevin Hu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hukevinxiaochen/dill-flask/issues"
+    "url": "https://github.com/hukevinxiaochen/Flask-React/issues"
   },
-  "homepage": "https://github.com/hukevinxiaochen/dill-flask#readme",
-  "dependencies": {
-    "babel-preset-react": "^6.5.0",
-    "babelify": "^7.2.0",
-    "markdown-it": "^6.0.1",
-    "react": "^15.0.1",
-    "react-dom": "^15.0.1",
-    "underscore": "^1.8.3"
-  }
+  "homepage": "https://github.com/hukevinxiaochen/Flask-React#readme"
 }
