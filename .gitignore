@@ -15,3 +15,4 @@ flask-log.txt
 
 # browserify outputs
 *bundle.js
+errors.txt
