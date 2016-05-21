@@ -17,7 +17,8 @@ var SideBar = React.createClass({
         this.setState({ open: !this.state.open }); 
     },
     handleClose: function () {
-        this.setState({ open: !this.state.mql.matches });
+	    this.setState({ open: !this.state.mql.matches });
+	    console.log("I was clicked!");
     },
     dockedToggle: function (mql) {
         this.setState({
@@ -33,8 +34,8 @@ var SideBar = React.createClass({
     render: function () {
         var menuItems = this.props.pages.map(
             (page) => {
-                return <Link to={page.path} onTouchTap={this.handleClose}>
-                    <MenuItem>{page.name}</MenuItem>
+                return <Link key={page.path} to={page.path}>
+                    <MenuItem onClick={this.handleClose}>{page.name}</MenuItem>
                     </Link>
             }
         ); 
@@ -44,8 +45,8 @@ var SideBar = React.createClass({
                 open={this.state.open}
                 docked={this.state.docked}
                 onRequestChange={(open) => this.setState({open})}>
-                <IndexLink to="/" onTouchTap={this.handleClose}>
-                    <MenuItem>Home</MenuItem>
+                <IndexLink to="/">
+                    <MenuItem onClick={this.handleClose}>Home</MenuItem>
                 </IndexLink>
                 {menuItems}
             </Drawer>
