@@ -12,6 +12,16 @@ import AppBar from 'material-ui/AppBar';
 // Custom Components
 import SideBar from './sidebar';
 
+// Theme Customization
+import {yellow50, blue500, indigo500, yellow500} from 'material-ui/styles/colors';
+
+var muiTheme = getMuiTheme({
+	fontFamily: "'Droid Serif', Georgia, Serif",
+	palette: {
+		primary1Color: "#336DC3",
+	},
+});
+
 // Data Model
 var pages = [{name: "About Us", path: "/about-us"},
             {name: "Wedding Party", path: "/wedding-party"},
@@ -19,7 +29,7 @@ var pages = [{name: "About Us", path: "/about-us"},
             {name: "Accommodations", path: "/accommodations"},
             {name: "Transportation", path: "/transportation"},
             {name: "Things To Do", path: "/things-to-do"},
-            {name: "Registry", path: "/registry"}];
+	    {name: "Registry", path: "/registry"}];
 
 // component
 var App = React.createClass({
@@ -28,7 +38,7 @@ var App = React.createClass({
     },
     render: function () {
         return(
-            <MuiThemeProvider muiTheme={getMuiTheme()}>
+            <MuiThemeProvider muiTheme={muiTheme}>
                 <div>
                     <MediaQuery maxWidth={840}>
                         <AppBar title="E &amp; K" 
