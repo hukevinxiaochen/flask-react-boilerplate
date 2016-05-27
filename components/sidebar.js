@@ -17,8 +17,8 @@ var SideBar = React.createClass({
         this.setState({ open: !this.state.open }); 
     },
     handleClose: function () {
-	    this.setState({ open: !this.state.mql.matches });
-	    console.log("I was clicked!");
+	this.setState({ open: !this.state.mql.matches });
+	// console.log("I was clicked!");
     },
     dockedToggle: function (mql) {
         this.setState({
