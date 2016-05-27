@@ -16,7 +16,7 @@ import SideBar from './sidebar';
 import {yellow50, blue500, indigo500, yellow500} from 'material-ui/styles/colors';
 
 var muiTheme = getMuiTheme({
-	fontFamily: "'Droid Serif', Georgia, Serif",
+	fontFamily: "'Lora', Georgia, Serif",
 	palette: {
 		primary1Color: "#336DC3",
 	},
