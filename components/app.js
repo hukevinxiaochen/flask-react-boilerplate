@@ -29,7 +29,8 @@ var pages = [{name: "About Us", path: "/about-us"},
             {name: "Accommodations", path: "/accommodations"},
             {name: "Transportation", path: "/transportation"},
             {name: "Things To Do", path: "/things-to-do"},
-	    {name: "Registry", path: "/registry"}];
+	    {name: "Registry", path: "/registry"},
+	    {name: "Updates", path: "/updates"}];
 
 // component
 var App = React.createClass({

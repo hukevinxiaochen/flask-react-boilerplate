@@ -26,6 +26,7 @@ import Accommodations from './pages/accommodations';
 import Transportation from './pages/transportation';
 import ThingsToDo from './pages/thingstodo';
 import Registry from './pages/registry';
+import Updates from './pages/updates';
 
 // Routing
 import Router from 'react-router/lib/Router';
@@ -44,7 +45,9 @@ ReactDOM.render((
             <Route path="/accommodations" component={Accommodations} />
             <Route path="/transportation" component={Transportation} />
             <Route path="/things-to-do" component={ThingsToDo} /> 
-            <Route path="/registry" component={Registry} />
+	    <Route path="/registry" component={Registry} />
+	    <Route path="/updates" component={Updates} />
         </Route>
     </Router>
 ), document.getElementById('app'));
+

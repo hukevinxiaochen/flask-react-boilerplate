@@ -16,3 +16,6 @@ flask-log.txt
 # browserify outputs
 *bundle.js
 errors.txt
+
+# static assets
+static/*.*

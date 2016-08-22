@@ -3,21 +3,19 @@ import React from 'react';
 var CeremonyAndReception = React.createClass({
     render: function () {
         return(
-<div className="content">
-            <h3>Ceremony and Reception</h3>
-            <ul>
-            <li>Picture of Venue</li>
-            <li>Name</li>
-            <li>Address</li>
-            <li>Time of Ceremony
-            <ul>
-            <li>Reception begins immediately following ceremony</li>
-            </ul>
-            </li>
-            </ul>
-            <p>&lt;!-- Come early for croquet before the ceremony? --&gt;</p>
-        </div>
-        );
+		<div className="content">
+			<h1>Ceremony and Reception</h1>
+			<img src="http://www.lancastercountymag.com/wp-content/uploads/2015/06/Backyard.jpg" className="feature" />
+			<div className="address">
+				<h2>Rock Ford Plantation</h2>
+				<h3>881 Rockford Road<br />Lancaster, PA 17602</h3>
+			</div>
+			<h3>5:00pm (Tentative)</h3>
+			<h3>April 29th, 2017</h3>
+			{/*<h4>Come early for croquet before the ceremony!</h4>*/}
+			<h4>Reception will follow the ceremony.</h4>
+		</div>
+	);
     }
 });
 

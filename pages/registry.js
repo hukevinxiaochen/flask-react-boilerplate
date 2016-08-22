@@ -8,20 +8,22 @@ import {red200, cyan500} from 'material-ui/styles/colors';
 var Registry = React.createClass({
     render: function () {
         return (
-            <div className="content">
-                <Card>
+		<div className="content">
+			<h1>Registry</h1>
+			<h2>Coming Soon!</h2>
+			{/*<Card>
                     <List>
-                        <a href="https://thankfulregistry.com/">
+                        <a href="https://thankfulregistry.com/" target="_blank">
                             <ListItem primaryText="Thankful"
                                 leftIcon={<ActionCardGiftcard
                                    color={red200} />} /></a>
                         <Divider />
-                        <a href="http://www.simpleregistry.com/">
+                        <a href="http://www.simpleregistry.com/" target="_blank">
                             <ListItem primaryText="Simple"
                                 leftIcon={<ActionCardGiftcard
                                     color={cyan500} />} /></a>
                     </List>
-                </Card>
+		    </Card>*/}
             </div>
         );
     }
