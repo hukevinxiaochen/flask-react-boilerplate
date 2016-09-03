@@ -1,5 +1,7 @@
 import React from 'react';
 
+// TODO: Style it up!
+
 var Updates = React.createClass({
     render: function () {
 	    return (

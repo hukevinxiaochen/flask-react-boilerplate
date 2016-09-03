@@ -1,6 +1,6 @@
 import React from 'react';
 
-var Home = React.createClass({
+var Welcome = React.createClass({
     render: function () {
         return(
             <div className="content"> 
@@ -13,4 +13,4 @@ var Home = React.createClass({
     }
 });
 
-export default Home;
+export default Welcome;

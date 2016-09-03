@@ -18,7 +18,7 @@ injectTapEventPlugin();
 import App from './components/app';
 
 // Pages
-import Home from './pages/home';
+import Welcome from './pages/welcome';
 import AboutUs from './pages/aboutUs';
 import WeddingParty from './pages/weddingparty';
 import CeremonyAndReception from './pages/ceremonyreception';
@@ -38,7 +38,7 @@ import IndexRoute from 'react-router/lib/IndexRoute';
 ReactDOM.render((
     <Router history={hashHistory}>
         <Route path="/" component={App}>
-            <IndexRoute component={Home} />
+            <IndexRoute component={Welcome} />
 	    <Route path="/about-us"  component={AboutUs} />
             <Route path="/ceremony-reception" component={CeremonyAndReception} />
             <Route path="/wedding-party" component={WeddingParty} />

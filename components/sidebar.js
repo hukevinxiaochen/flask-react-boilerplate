@@ -46,7 +46,7 @@ var SideBar = React.createClass({
                 docked={this.state.docked}
                 onRequestChange={(open) => this.setState({open})}>
                 <IndexLink to="/">
-                    <MenuItem onClick={this.handleClose}>Home</MenuItem>
+                    <MenuItem onClick={this.handleClose}>Welcome</MenuItem>
                 </IndexLink>
                 {menuItems}
             </Drawer>
