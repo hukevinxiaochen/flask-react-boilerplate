@@ -44,8 +44,18 @@ section {
 	margin-left: auto;
 }
 
-.mc-field-group {
-	padding: 20px 20px;
+#mc_embed_signup_scroll p {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.mc-field-group input {
+	text-align: center;
+}
+
+.clear {
+	text-align: center;
+	padding-bottom: 5px;
 }
 
 @media screen and (min-width: 840px) {
