@@ -6,10 +6,11 @@ var Updates = React.createClass({
     render: function () {
 	    return (
 		    <div className="content">
+			    <h1>Updates</h1>
 			    <div id="mc_embed_signup">
 				    <form action="//ericakevin.us13.list-manage.com/subscribe/post?u=5557db02a80ebaa4bdb958f2f&amp;id=54edacb37c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
 					    <div id="mc_embed_signup_scroll">
-						    <p>Share your email with us if you would like to receive notice of major updates!</p>
+						    <p>Put your email on our secure listserv if you would like to be notified when the website is updated with new information (It'll be like 2 emails).</p>
 						    {/*<div className="indicates-required"><span className="asterisk">*</span> indicates required</div>*/}
 						    {/*<div className="mc-field-group">
 							    <label htmlFor="mce-EMAIL">Email Address  <span className="asterisk">*</span></label>
