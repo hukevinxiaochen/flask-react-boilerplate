@@ -23,9 +23,6 @@ var Updates = React.createClass({
 							    <label for="mce-LNAME">Family Name </label>
 							    <input type="text" name="LNAME" className="" id="mce-LNAME" />
 						    </div>
-						    <div>
-							    <a href="http://us13.campaign-archive2.com/home/?u=5557db02a80ebaa4bdb958f2f&id=54edacb37c" title="View previous updates">View previous updates.</a>
-						    </div>
 						    <div id="mce-responses" className="clear">
 							    <div className="response" id="mce-error-response" style={{display: "none"}}></div>
 							    <div className="response" id="mce-success-response" style={{display: "none"}}></div>

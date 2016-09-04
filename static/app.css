@@ -44,6 +44,10 @@ section {
 	margin-left: auto;
 }
 
+.mc-field-group {
+	padding: 20px 20px;
+}
+
 @media screen and (min-width: 840px) {
 	section {
 		padding-left: 200px;
