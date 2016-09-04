@@ -8,7 +8,8 @@ from flask import request
 app = Flask(__name__)
 
 @app.route("/")
-def index():
+@app.route("/<page_name>")
+def index(page_name=None):
     return render_template("index.html")
 
 # Logging Configuration
