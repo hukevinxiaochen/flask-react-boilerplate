@@ -4,7 +4,8 @@ This is boilerplate for using [Flask][flask] to serve up [React][react] views.
 
 # TODO
 
-* Use Gulp for build
+* Use Gulp for build [x]
+* Use [watchify][gwatchify] with Gulp
 * Links should open in new tabs
 * Introduce secondary color for list backgrounds
 * Pictures for hotels
@@ -37,3 +38,4 @@ Also use [npm][npm] to get yourself some JavaScript dev tools you will want at t
 
 [flask]: http://flask.pocoo.org/
 [react]: http://facebook.github.io/react
+[gwatchify]: https://github.com/gulpjs/gulp/blob/master/docs/recipes/fast-browserify-builds-with-watchify.md
