@@ -4,6 +4,7 @@ This is boilerplate for using [Flask][flask] to serve up [React][react] views.
 
 # TODO
 
+* Use Gulp for build
 * Links should open in new tabs
 * Introduce secondary color for list backgrounds
 * Pictures for hotels
