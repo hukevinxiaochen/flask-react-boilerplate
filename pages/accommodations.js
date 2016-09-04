@@ -16,8 +16,9 @@ var Accommodations = React.createClass({
 		    <h2>Fairfield Inn &amp; Suites</h2>
 		    <h3>$142/night (21 days in advance of 4/28)</h3>
 		    <ul>
-			    <li>free breakfast</li>
-			    <li>free parking, free wifi</li>
+			    <li>Free Breakfast</li>
+			    <li>Free Parking</li>
+			    <li>Free WiFi</li>
 		    </ul>
             </div>
         );
