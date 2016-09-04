@@ -20,7 +20,7 @@ section {
 }
 
 .content {
-	padding: 5px 30px;
+	padding: 5px 15px;
 	font-family: "Lora", Georgia, Serif;
 	margin-bottom: 30px;
 }
@@ -37,8 +37,8 @@ section {
 
 .feature {
 	display: block;
-	max-width: 285px;
-	max-height: 195px;
+	max-width: 240px;
+	max-height: 150px;
 	height: auto;
 	margin-right: auto;
 	margin-left: auto;
@@ -47,6 +47,10 @@ section {
 @media screen and (min-width: 840px) {
 	section {
 		padding-left: 200px;
+	}
+
+	.content {
+		padding: 5px 30px;
 	}
 
 	.feature {
