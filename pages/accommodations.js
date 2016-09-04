@@ -5,7 +5,7 @@ var Accommodations = React.createClass({
         return (
             <div className="content">
 		    <h1>Accommodations</h1>
-		    {/*<h2>Hilton Garden Inn</h2>
+		    <h2>Hilton Garden Inn</h2>
 		    <h3>$142/night (30 days in advance of 4/28)</h3>
 		    <ul>
 			    <li>Free Parking</li>
@@ -18,7 +18,7 @@ var Accommodations = React.createClass({
 		    <ul>
 			    <li>free breakfast</li>
 			    <li>free parking, free wifi</li>
-			    </ul>*/}
+		    </ul>
             </div>
         );
     }
