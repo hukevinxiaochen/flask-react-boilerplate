@@ -31,12 +31,12 @@ import Updates from './pages/updates';
 // Routing
 import Router from 'react-router/lib/Router';
 import Route from 'react-router/lib/Route';
-import hashHistory from 'react-router/lib/hashHistory';
+import browserHistory from 'react-router/lib/browserHistory';
 import IndexRoute from 'react-router/lib/IndexRoute';
 
 // Render
 ReactDOM.render((
-    <Router history={hashHistory}>
+    <Router history={browserHistory}>
         <Route path="/" component={App}>
             <IndexRoute component={Welcome} />
 	    <Route path="/about-us"  component={AboutUs} />
