@@ -85,6 +85,12 @@ section {
 	.content {
 		padding: 5px 30px;
 	}
+	
+	/* Roughly centerize paragraph text
+	 * */
+	.content ul {
+		padding-left: 200px;
+	}
 
 	/* Allow featured images to be 
 	 * larger. */
