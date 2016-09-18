@@ -13,12 +13,12 @@ var Registry = React.createClass({
 			<h2>Coming Soon!</h2>
 			{/*<Card>
                     <List>
-                        <a href="https://thankfulregistry.com/" target="_blank">
+                        <a href="https://thankfulregistry.com/" target="_blank" target="_blank">
                             <ListItem primaryText="Thankful"
                                 leftIcon={<ActionCardGiftcard
                                    color={red200} />} /></a>
                         <Divider />
-                        <a href="http://www.simpleregistry.com/" target="_blank">
+                        <a href="http://www.simpleregistry.com/" target="_blank" target="_blank">
                             <ListItem primaryText="Simple"
                                 leftIcon={<ActionCardGiftcard
                                     color={cyan500} />} /></a>
