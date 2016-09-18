@@ -67,10 +67,10 @@ var ThingsToDo = React.createClass({
 			    <a href="http://www.tenthousandvillages.com/ephrata/#fndtn-home" target="_blank">
 				    <ListItem primaryText="Ten Thousand Villages" secondaryText="flagship store" />
 			    </a>
-			    <ListItem primaryText="Downtown Lancaster" secondaryText="antiques/vintage, decor, fashion" nestedItems={[
-				    <a key={1} href="http://visithistoriclancaster.com/things_to_do/shopping_vintage_antiques"><ListItem primaryText="Antiques/Vintage" /></a>,
-				    <a key={2} href="http://visithistoriclancaster.com/things_to_do/shopping_home"><ListItem primaryText="Decor" /></a>,
-				    <a key={3} href="http://visithistoriclancaster.com/things_to_do/shopping_fashion"><ListItem primaryText="Fashion" /></a>]} />
+			    <ListItem primaryText="Downtown Lancaster" secondaryText="antiques/vintage, decor, fashion" initiallyOpen={true} nestedItems={[
+				    <a key={1} href="http://visithistoriclancaster.com/things_to_do/shopping_vintage_antiques" target="_blank"><ListItem primaryText="Antiques/Vintage" /></a>,
+				    <a key={2} href="http://visithistoriclancaster.com/things_to_do/shopping_home" target="_blank"><ListItem primaryText="Decor" /></a>,
+				    <a key={3} href="http://visithistoriclancaster.com/things_to_do/shopping_fashion" target="_blank"><ListItem primaryText="Fashion" /></a>]} />
 		    </List>
 	    	    <h2>Food &amp; Drink</h2>
 		    <List>
