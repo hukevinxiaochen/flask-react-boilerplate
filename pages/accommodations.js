@@ -6,6 +6,7 @@ var Accommodations = React.createClass({
             <div className="content">
 		    <h1>Accommodations</h1>
 		    <h2>Hilton Garden Inn</h2>
+		    <img className="feature" src="../static/Hilton.jpg" />
 		    <h3>$142/night (30 days in advance of 4/28)</h3>
 		    <ul>
 			    <li>Free Parking</li>
@@ -14,6 +15,7 @@ var Accommodations = React.createClass({
 			    <li>Breakfast Not Included</li>
 		    </ul>
 		    <h2>Fairfield Inn &amp; Suites</h2>
+		    <img className="feature" src="../static/Fairfield.jpg" />
 		    <h3>$142/night (21 days in advance of 4/28)</h3>
 		    <ul>
 			    <li>Free Breakfast</li>
