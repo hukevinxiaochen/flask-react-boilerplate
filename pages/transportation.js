@@ -1,6 +1,7 @@
 import React from 'react';
 import { List, ListItem } from 'material-ui/List'; 
-import { Link } from 'react-router';
+import RaisedButton from 'material-ui/RaisedButton';
+import Link from 'react-router';
 
 var Transportation = React.createClass({
     render: function () {
@@ -24,7 +25,8 @@ var Transportation = React.createClass({
 		    </List>
 
 		    <h2>Around Lancaster</h2>
-		    <p>Check back for more details - coming soon! <Link to="/updates">Share</Link> your email if you would like to receive notice of updates.</p>
+		    <p>Check back for more details - coming soon!</p>
+		    <RaisedButton label="Sign Up for Email Updates" secondary={true} />
 		{/*<h2>To and From Lancaster</h2>
 		   <h3>Uber is in Lancaster</h3>
 		*/}
