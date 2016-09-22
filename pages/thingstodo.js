@@ -1,6 +1,7 @@
 import React from 'react';
 import {List, ListItem} from 'material-ui/List';
 import Subheader from 'material-ui/Subheader';
+import Divider from 'material-ui/Divider';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import MediaQuery from 'react-responsive';
 
@@ -65,12 +66,19 @@ var ThingsToDo = React.createClass({
 				    <ListItem primaryText="Gallery Row" />
 			    </a>
 			    <a href="http://www.tenthousandvillages.com/ephrata/#fndtn-home" target="_blank">
-				    <ListItem primaryText="Ten Thousand Villages" secondaryText="flagship store" />
+				    <ListItem primaryText="Ten Thousand Villages" secondaryText="Flagship store" />
 			    </a>
-			    <ListItem primaryText="Downtown Lancaster" secondaryText="antiques/vintage, decor, fashion" initiallyOpen={true} nestedItems={[
-				    <a key={1} href="http://visithistoriclancaster.com/things_to_do/shopping_vintage_antiques" target="_blank"><ListItem primaryText="Antiques/Vintage" /></a>,
-				    <a key={2} href="http://visithistoriclancaster.com/things_to_do/shopping_home" target="_blank"><ListItem primaryText="Decor" /></a>,
-				    <a key={3} href="http://visithistoriclancaster.com/things_to_do/shopping_fashion" target="_blank"><ListItem primaryText="Fashion" /></a>]} />
+			    <Divider />
+			    <Subheader>Downtown Lancaster</Subheader>
+			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_vintage_antiques" target="_blank">
+				    <ListItem primaryText="Antiques/Vintage" />
+			    </a>
+			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_home" target="_blank">
+				    <ListItem primaryText="Decor" />
+			    </a>
+			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_fashion" target="_blank">
+				    <ListItem primaryText="Fashion" />
+			    </a>  
 		    </List>
 	    	    <h2>Food &amp; Drink</h2>
 		    <List>
@@ -171,12 +179,19 @@ var ThingsToDo = React.createClass({
 				    <ListItem primaryText="Gallery Row" />
 			    </a>
 			    <a href="http://www.tenthousandvillages.com/ephrata/#fndtn-home" target="_blank">
-				    <ListItem primaryText="Ten Thousand Villages" secondaryText="flagship store" />
+				    <ListItem primaryText="Ten Thousand Villages" secondaryText="Flagship store" />
 			    </a>
-			    <ListItem primaryText="Downtown Lancaster" secondaryText="antiques/vintage, decor, fashion" nestedItems={[
-				    <a key={1} href="http://visithistoriclancaster.com/things_to_do/shopping_vintage_antiques"><ListItem primaryText="Antiques/Vintage" /></a>,
-				    <a key={2} href="http://visithistoriclancaster.com/things_to_do/shopping_home"><ListItem primaryText="Decor" /></a>,
-				    <a key={3} href="http://visithistoriclancaster.com/things_to_do/shopping_fashion"><ListItem primaryText="Fashion" /></a>]} />
+			    <Divider />
+			    <Subheader>Downtown Lancaster</Subheader>
+			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_vintage_antiques" target="_blank">
+				    <ListItem primaryText="Antiques/Vintage" />
+			    </a>
+			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_home" target="_blank">
+				    <ListItem primaryText="Decor" />
+			    </a>
+			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_fashion" target="_blank">
+				    <ListItem primaryText="Fashion" />
+			    </a>
 		    </List>
 	    </Tab>
 		    <Tab label="Food &amp; Drink">
