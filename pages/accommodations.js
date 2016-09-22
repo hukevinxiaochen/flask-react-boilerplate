@@ -14,6 +14,7 @@ var Accommodations = React.createClass({
 			    <li>Restaurant On-Site</li>
 			    <li>Breakfast Not Included</li>
 		    </ul>
+		    <p><a href="http://hiltongardeninn.hilton.com/en/gi/groups/personalized/L/LNSLHGI-BHW-20170428/index.jhtml?WT.mc_id=POG">Book your stay here</a></p>
 		    <h2>Fairfield Inn &amp; Suites</h2>
 		    <img className="feature" src="../static/Fairfield.jpg" />
 		    <h3>$142/night (21 days in advance of 4/28)</h3>
