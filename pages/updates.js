@@ -39,7 +39,7 @@ var Updates = React.createClass({
 						    {/*<div className="clear">
 							    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" />
 							    </div>*/}
-							    <RaisedButton label="Submit Data" primary={true} type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" />
+							    <RaisedButton label="Submit" primary={true} type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" />
 					    </div>
 				    </form>
 			    </div>

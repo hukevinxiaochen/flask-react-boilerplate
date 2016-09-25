@@ -68,6 +68,8 @@ section {
 /* Center the updates list sign-up form */
 #mc_embed_signup_scroll {
 	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 15px;
 }
 
 /* Center components inside centerify divs */
