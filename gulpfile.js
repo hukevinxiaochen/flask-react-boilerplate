@@ -1,5 +1,8 @@
 'use strict';
 
+// Tutorial
+// http://jpsierens.com/tutorial-gulp-javascript-2015-react/
+
 var gulp = require('gulp');
 var brow = require('browserify');
 var source = require('vinyl-source-stream');
