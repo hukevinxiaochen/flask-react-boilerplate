@@ -1,6 +1,10 @@
 'use strict';
 
 var gulp = require('gulp');
+var brow = require('browserify');
+var source = require('vinyl-source-stream');
+var gutil = require('gulp-util');
+var babelify = require('babelify');
 
 gulp.task('default', function() {
 	// code for default task here
