@@ -10,13 +10,11 @@ var Updates = React.createClass({
 			    <div id="mc_embed_signup">
 				    <form action="//ericakevin.us13.list-manage.com/subscribe/post?u=5557db02a80ebaa4bdb958f2f&amp;id=54edacb37c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
 					    <div id="mc_embed_signup_scroll">
-						    <p>Put your email on our secure listserv if you would like to be notified when the website is updated with new information (It'll be like 2 emails).</p>
-						    {/*<div className="indicates-required"><span className="asterisk">*</span> indicates required</div>*/}
-						    {/*<div className="mc-field-group">
-							    <label htmlFor="mce-EMAIL">Email Address  <span className="asterisk">*</span></label>
-							    <input type="email" name="EMAIL" className="required email" id="mce-EMAIL" />
-							    </div>*/}
+						    <p>Share your e-mail address if you would like to be notified when the website is updated with new information.</p>
+						    <p>Your e-mail address will be stored on a secure listserv and you will receive no more than a couple of e-mails.</p>
+						    <div className="pad-top">
 							    <TextField hintText="Email" type="email" name="EMAIL" id="mce-EMAIL" />
+						    </div>
 							    <br />
 						    {/*<div className="mc-field-group">
 							    <label htmlFor="mce-FNAME">Given Name </label>
@@ -36,10 +34,9 @@ var Updates = React.createClass({
 						    <div style={{position: "absolute", left: -5000}} aria-hidden="true">
 							    <input type="text" name="b_5557db02a80ebaa4bdb958f2f_54edacb37c" tabIndex="-1" value="" />
 						    </div>
-						    {/*<div className="clear">
-							    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" />
-							    </div>*/}
+						    <div className="pad-top">
 							    <RaisedButton label="Submit" primary={true} type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" />
+						    </div>
 					    </div>
 				    </form>
 			    </div>

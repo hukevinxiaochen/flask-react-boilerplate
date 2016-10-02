@@ -25,7 +25,7 @@ var Transportation = React.createClass({
 		    </List>
 
 		    <h2>Around Lancaster</h2>
-		    <h3>COMING SOON!</h3>
+		    <h3>Coming Soon!</h3>
 		    {/*<div className="centerify">
 			    <RaisedButton label="Sign Up for Email Updates" secondary={true} />
 		    </div>*/}
