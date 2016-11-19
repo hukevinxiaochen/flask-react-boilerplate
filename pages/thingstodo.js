@@ -68,16 +68,15 @@ var ThingsToDo = React.createClass({
 			    <a href="http://www.tenthousandvillages.com/ephrata/#fndtn-home" target="_blank">
 				    <ListItem primaryText="Ten Thousand Villages" secondaryText="Flagship store" />
 			    </a>
-			    <Divider />
-			    <Subheader>Downtown Lancaster</Subheader>
+			    <ListItem>Downtown Lancaster</ListItem>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_vintage_antiques" target="_blank">
-				    <ListItem primaryText="Antiques/Vintage" />
+				    <ListItem primaryText="~Antiques/Vintage" />
 			    </a>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_home" target="_blank">
-				    <ListItem primaryText="Decor" />
+				    <ListItem primaryText="~Decor" />
 			    </a>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_fashion" target="_blank">
-				    <ListItem primaryText="Fashion" />
+				    <ListItem primaryText="~Fashion" />
 			    </a>  
 		    </List>
 	    	    <h2>Food &amp; Drink</h2>
@@ -108,9 +107,6 @@ var ThingsToDo = React.createClass({
 			    </a>
 			    <a href="http://www.lancasterbrewing.com/" target="_blank">
 				    <ListItem primaryText="Lancaster Brewing Company" secondaryText="Brewery/American" />
-			    </a>
-			    <a href="http://pressroomrestaurant.com/" target="_blank">
-				    <ListItem primaryText="The Pressroom" secondaryText="American" />
 			    </a>
 			    <a href="http://www.checkersbistro.com/restaurant.html" target="_blank">
 				    <ListItem primaryText="Checker’s Bistro" secondaryText="American" />
@@ -181,16 +177,15 @@ var ThingsToDo = React.createClass({
 			    <a href="http://www.tenthousandvillages.com/ephrata/#fndtn-home" target="_blank">
 				    <ListItem primaryText="Ten Thousand Villages" secondaryText="Flagship store" />
 			    </a>
-			    <Divider />
-			    <Subheader>Downtown Lancaster</Subheader>
+			    <ListItem>Downtown Lancaster</ListItem>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_vintage_antiques" target="_blank">
-				    <ListItem primaryText="Antiques/Vintage" />
+				    <ListItem primaryText="~Antiques/Vintage" />
 			    </a>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_home" target="_blank">
-				    <ListItem primaryText="Decor" />
+				    <ListItem primaryText="~Decor" />
 			    </a>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_fashion" target="_blank">
-				    <ListItem primaryText="Fashion" />
+				    <ListItem primaryText="~Fashion" />
 			    </a>
 		    </List>
 	    </Tab>
@@ -222,9 +217,6 @@ var ThingsToDo = React.createClass({
 			    </a>
 			    <a href="http://www.lancasterbrewing.com/" target="_blank">
 				    <ListItem primaryText="Lancaster Brewing Company" secondaryText="Brewery/American" />
-			    </a>
-			    <a href="http://pressroomrestaurant.com/" target="_blank">
-				    <ListItem primaryText="The Pressroom" secondaryText="American" />
 			    </a>
 			    <a href="http://www.checkersbistro.com/restaurant.html" target="_blank">
 				    <ListItem primaryText="Checker’s Bistro" secondaryText="American" />
