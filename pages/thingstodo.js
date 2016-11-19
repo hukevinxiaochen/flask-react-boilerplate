@@ -2,6 +2,7 @@ import React from 'react';
 import {List, ListItem} from 'material-ui/List';
 import Subheader from 'material-ui/Subheader';
 import Divider from 'material-ui/Divider';
+import ActionLaunch from 'material-ui/svg-icons/action/launch';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import MediaQuery from 'react-responsive';
 
@@ -68,15 +69,16 @@ var ThingsToDo = React.createClass({
 			    <a href="http://www.tenthousandvillages.com/ephrata/#fndtn-home" target="_blank">
 				    <ListItem primaryText="Ten Thousand Villages" secondaryText="Flagship store" />
 			    </a>
-			    <ListItem>Downtown Lancaster</ListItem>
+			    <Divider inset={true}/>
+			    <Subheader inset={true}>Downtown Lancaster</Subheader>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_vintage_antiques" target="_blank">
-				    <ListItem primaryText="~Antiques/Vintage" />
+				    <ListItem primaryText="Antiques/Vintage" leftIcon={<ActionLaunch />} />
 			    </a>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_home" target="_blank">
-				    <ListItem primaryText="~Decor" />
+				    <ListItem primaryText="Decor" leftIcon={<ActionLaunch />} />
 			    </a>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_fashion" target="_blank">
-				    <ListItem primaryText="~Fashion" />
+				    <ListItem primaryText="Fashion" leftIcon={<ActionLaunch />} />
 			    </a>  
 		    </List>
 	    	    <h2>Food &amp; Drink</h2>
@@ -177,15 +179,16 @@ var ThingsToDo = React.createClass({
 			    <a href="http://www.tenthousandvillages.com/ephrata/#fndtn-home" target="_blank">
 				    <ListItem primaryText="Ten Thousand Villages" secondaryText="Flagship store" />
 			    </a>
-			    <ListItem>Downtown Lancaster</ListItem>
+			    <Divider inset={true}/>
+			    <Subheader inset={true}>Downtown Lancaster</Subheader>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_vintage_antiques" target="_blank">
-				    <ListItem primaryText="~Antiques/Vintage" />
+				    <ListItem primaryText="Antiques/Vintage" leftIcon={<ActionLaunch />} />
 			    </a>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_home" target="_blank">
-				    <ListItem primaryText="~Decor" />
+				    <ListItem primaryText="Decor" leftIcon={<ActionLaunch />} />
 			    </a>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_fashion" target="_blank">
-				    <ListItem primaryText="~Fashion" />
+				    <ListItem primaryText="Fashion" leftIcon={<ActionLaunch />} />
 			    </a>
 		    </List>
 	    </Tab>
