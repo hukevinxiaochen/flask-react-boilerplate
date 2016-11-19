@@ -10,22 +10,13 @@ var Updates = React.createClass({
 			    <div id="mc_embed_signup">
 				    <form action="//ericakevin.us13.list-manage.com/subscribe/post?u=5557db02a80ebaa4bdb958f2f&amp;id=54edacb37c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
 					    <div id="mc_embed_signup_scroll">
-						    <p>Share your e-mail address if you would like to be notified when the website is updated with new information.</p>
-						    <p>Your e-mail address will be stored on a secure listserv and you will receive no more than a couple of e-mails.</p>
+						    <p>Share your e-mail address if you would like to be notified when the website is updated with new information. Your e-mail address will be stored on a secure listserv and you will receive no more than a couple of e-mails.
+						    </p>
 						    <div className="pad-top">
-							    <TextField hintText="Email" type="email" name="EMAIL" id="mce-EMAIL" />
-						    </div>
-							    <br />
-						    {/*<div className="mc-field-group">
-							    <label htmlFor="mce-FNAME">Given Name </label>
-							    <input type="text" name="FNAME" className="" id="mce-FNAME" />
-							    </div>*/}
-							    <TextField hintText="Given Name" type="text" name="FNAME" id="mce-FNAME" />
-							    <br />
-						    {/*<div className="mc-field-group">
-							    <label htmlFor="mce-LNAME">Family Name </label>
-							    <input type="text" name="LNAME" className="" id="mce-LNAME" />
-							    </div>*/}
+						    <TextField hintText="Email" type="email" name="EMAIL" id="mce-EMAIL" />
+						    <br />
+						    <TextField hintText="Given Name" type="text" name="FNAME" id="mce-FNAME" />
+						    <br />
 						    <TextField hintText="Last Name" type="text" name="LNAME" id="mce-LNAME" />
 						    <div id="mce-responses" className="clear">
 							    <div className="response" id="mce-error-response" style={{display: "none"}}></div>
@@ -36,6 +27,7 @@ var Updates = React.createClass({
 						    </div>
 						    <div className="pad-top">
 							    <RaisedButton label="Submit" primary={true} type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" />
+						    </div>
 						    </div>
 					    </div>
 				    </form>
