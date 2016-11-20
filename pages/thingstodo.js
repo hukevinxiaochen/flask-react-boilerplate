@@ -2,7 +2,7 @@ import React from 'react';
 import {List, ListItem} from 'material-ui/List';
 import Subheader from 'material-ui/Subheader';
 import Divider from 'material-ui/Divider';
-import ActionLaunch from 'material-ui/svg-icons/action/launch';
+import ImageLens from 'material-ui/svg-icons/image/lens';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import MediaQuery from 'react-responsive';
 
@@ -72,13 +72,13 @@ var ThingsToDo = React.createClass({
 			    <Divider inset={true}/>
 			    <Subheader inset={true}>Downtown Lancaster</Subheader>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_vintage_antiques" target="_blank">
-				    <ListItem primaryText="Antiques/Vintage" leftIcon={<ActionLaunch />} />
+				    <ListItem primaryText="Antiques/Vintage" leftIcon={<ImageLens />} />
 			    </a>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_home" target="_blank">
-				    <ListItem primaryText="Decor" leftIcon={<ActionLaunch />} />
+				    <ListItem primaryText="Decor" leftIcon={<ImageLens />} />
 			    </a>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_fashion" target="_blank">
-				    <ListItem primaryText="Fashion" leftIcon={<ActionLaunch />} />
+				    <ListItem primaryText="Fashion" leftIcon={<ImageLens />} />
 			    </a>  
 		    </List>
 	    	    <h2>Food &amp; Drink</h2>
@@ -117,8 +117,9 @@ var ThingsToDo = React.createClass({
 				    <ListItem primaryText="Carr’s Restaurant" secondaryText="American" />
 			    </a>
 		    </List> 
-	    </MediaQuery>
-	    <MediaQuery minWidth={841}>
+		    </MediaQuery>
+		    <MediaQuery minWidth={841}>
+			    {/* TODO: Make these Tabs scrollable */}
 		    <Tabs>
 			    <Tab label="Attractions">
 				    <List>
@@ -182,13 +183,13 @@ var ThingsToDo = React.createClass({
 			    <Divider inset={true}/>
 			    <Subheader inset={true}>Downtown Lancaster</Subheader>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_vintage_antiques" target="_blank">
-				    <ListItem primaryText="Antiques/Vintage" leftIcon={<ActionLaunch />} />
+				    <ListItem primaryText="Antiques/Vintage" leftIcon={<ImageLens />} />
 			    </a>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_home" target="_blank">
-				    <ListItem primaryText="Decor" leftIcon={<ActionLaunch />} />
+				    <ListItem primaryText="Decor" leftIcon={<ImageLens />} />
 			    </a>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_fashion" target="_blank">
-				    <ListItem primaryText="Fashion" leftIcon={<ActionLaunch />} />
+				    <ListItem primaryText="Fashion" leftIcon={<ImageLens />} />
 			    </a>
 		    </List>
 	    </Tab>
