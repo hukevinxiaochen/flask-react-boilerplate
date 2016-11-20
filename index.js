@@ -8,10 +8,10 @@
  * - react-responsive
 */
 
-var React = require('react');
-var ReactDOM = require('react-dom');
 var injectTapEventPlugin = require("react-tap-event-plugin");
 injectTapEventPlugin();
+var React = require('react');
+var ReactDOM = require('react-dom');
 
 // App Components
 import App from './components/app';
