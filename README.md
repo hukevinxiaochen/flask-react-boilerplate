@@ -2,6 +2,8 @@
 
 This is boilerplate for using [Flask][flask] to serve up [React][react] views.
 
+It also comes with [React][react]-only boilerplate.
+
 # Getting Started
 
 ## JavaScript Packages
