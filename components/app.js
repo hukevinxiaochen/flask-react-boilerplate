@@ -1,3 +1,18 @@
+/*
+ * App.js exports App
+ *
+ * App invokes Material-UI's ThemeProvider which wraps around:
+ *
+ * - AppBar
+ * - SideBar
+ * - section
+ *
+ * These are the top-level layout components. Inside of them we have our 
+ * content.
+ *
+ *
+ * */
+
 // app.js
 var React = require('react');
 
