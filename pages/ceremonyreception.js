@@ -10,7 +10,7 @@ var CeremonyAndReception = React.createClass({
 				<h2>Rock Ford Plantation</h2>
 				<h3>881 Rockford Road<br />Lancaster, PA 17602</h3>
 			</div>
-			<h3>Late afternoon</h3>
+			<h3>5:30 pm</h3>
 			<h3>April 29, 2017</h3>
 			{/*<h4>Come early for croquet before the ceremony!</h4>*/}
 			<h4>Reception will follow the ceremony.</h4>

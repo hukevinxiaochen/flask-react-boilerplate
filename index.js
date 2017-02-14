@@ -29,6 +29,7 @@ import Transportation from './pages/transportation';
 import ThingsToDo from './pages/thingstodo';
 import Registry from './pages/registry';
 import Updates from './pages/updates';
+import RehearsalDinner from './pages/rehearsaldinner';
 
 // Routing
 import Router from 'react-router/lib/Router';
@@ -42,8 +43,9 @@ ReactDOM.render((
         <Route path="/" component={App}>
             <IndexRoute component={Welcome} />
 	    <Route path="/about-us"  component={AboutUs} />
-            <Route path="/ceremony-reception" component={CeremonyAndReception} />
             <Route path="/wedding-party" component={WeddingParty} />
+            <Route path="/ceremony-reception" component={CeremonyAndReception} />
+	    <Route path="/rehearsal-dinner" component={RehearsalDinner} />
             <Route path="/accommodations" component={Accommodations} />
             <Route path="/transportation" component={Transportation} />
             <Route path="/things-to-do" component={ThingsToDo} /> 
