@@ -42,11 +42,12 @@ var pages = [{name: "About Us", path: "/about-us"},
             {name: "Wedding Party", path: "/wedding-party"},
             {name: "Ceremony & Reception", path: "/ceremony-reception"},
             {name: "Rehearsal Dinner", path: "/rehearsal-dinner"},
+	    {name: "Brunch", path: "/brunch"},
+	    {name: "Attire", path: "/attire"},
             {name: "Accommodations", path: "/accommodations"},
             {name: "Transportation", path: "/transportation"},
             {name: "Things To Do", path: "/things-to-do"},
-            {name: "Registry", path: "/registry"},
-            {name: "Updates", path: "/updates"}];
+            {name: "Registry", path: "/registry"}];
 
 // component
 var App = React.createClass({

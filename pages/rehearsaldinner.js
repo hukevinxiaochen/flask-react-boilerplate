@@ -12,7 +12,7 @@ var RehearsalDinner = React.createClass({
 				<h3>26 W King Street<br />Lancaster, PA 17603</h3>
 			</div>
 			<h3>7:00 pm</h3>
-			<h3>April 28, 2017</h3>	
+			<h3>April 28, 2017</h3>
 		</div>
 	);
     }

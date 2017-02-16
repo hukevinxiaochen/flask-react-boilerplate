@@ -10,7 +10,16 @@ var Registry = React.createClass({
         return (
 		<div className="content">
 			<h1>Registry</h1>
-			<h2>Coming Soon!</h2>
+			<a href="https://secure.williams-sonoma.com/registry/9bw2gqdjmv/registry-list.html" target="_blank">
+			<h2>Williams Sonoma</h2>
+			</a>
+		<a href="https://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?registryId=544297931&eventType=Wedding&pwsurl=" target="_blank">
+			<h2>Bed, Bath & Beyond</h2>
+			</a>
+<a href="https://www.amazon.com/wedding/kevin-hu-erica-bishop-lancaster-april-2017/registry/1ZBE71V4CIGLE" target="_blank">
+			<h2>Amazon</h2>
+			</a>
+
 			{/*<Card>
                     <List>
                         <a href="https://thankfulregistry.com/" target="_blank" target="_blank">

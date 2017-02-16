@@ -28,8 +28,12 @@ import Accommodations from './pages/accommodations';
 import Transportation from './pages/transportation';
 import ThingsToDo from './pages/thingstodo';
 import Registry from './pages/registry';
-import Updates from './pages/updates';
 import RehearsalDinner from './pages/rehearsaldinner';
+import Attire from './pages/attire';
+import Brunch from './pages/brunch';
+
+// This component is not linked into the routing system
+import Updates from './pages/updates';
 
 // Routing
 import Router from 'react-router/lib/Router';
@@ -46,11 +50,12 @@ ReactDOM.render((
             <Route path="/wedding-party" component={WeddingParty} />
             <Route path="/ceremony-reception" component={CeremonyAndReception} />
 	    <Route path="/rehearsal-dinner" component={RehearsalDinner} />
+	    <Route path="/brunch" component={Brunch} />
+	    <Route path="/attire" component={Attire} />
             <Route path="/accommodations" component={Accommodations} />
             <Route path="/transportation" component={Transportation} />
             <Route path="/things-to-do" component={ThingsToDo} /> 
-	    <Route path="/registry" component={Registry} />
-	    <Route path="/updates" component={Updates} />
+	    <Route path="/registry" component={Registry} /> 
         </Route>
     </Router>
 ), document.getElementById('app'));
