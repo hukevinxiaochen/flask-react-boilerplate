@@ -1,7 +1,6 @@
 import React from 'react';
 import {List, ListItem} from 'material-ui/List';
 import Subheader from 'material-ui/Subheader';
-import Divider from 'material-ui/Divider';
 import ImageLens from 'material-ui/svg-icons/image/lens';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import MediaQuery from 'react-responsive';
@@ -68,17 +67,15 @@ var ThingsToDo = React.createClass({
 			    </a>
 			    <a href="http://www.tenthousandvillages.com/ephrata/#fndtn-home" target="_blank">
 				    <ListItem primaryText="Ten Thousand Villages" secondaryText="Flagship store" />
-			    </a>
-			    <Divider inset={true}/>
-			    <Subheader inset={true}>Downtown Lancaster</Subheader>
+			    </a> 
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_vintage_antiques" target="_blank">
-				    <ListItem primaryText="Antiques/Vintage" leftIcon={<ImageLens />} />
+				    <ListItem primaryText="Antiques/Vintage" />
 			    </a>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_home" target="_blank">
-				    <ListItem primaryText="Decor" leftIcon={<ImageLens />} />
+				    <ListItem primaryText="Decor" />
 			    </a>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_fashion" target="_blank">
-				    <ListItem primaryText="Fashion" leftIcon={<ImageLens />} />
+				    <ListItem primaryText="Fashion" />
 			    </a>  
 		    </List>
 	    	    <h2>Food &amp; Drink</h2>
@@ -179,17 +176,15 @@ var ThingsToDo = React.createClass({
 			    </a>
 			    <a href="http://www.tenthousandvillages.com/ephrata/#fndtn-home" target="_blank">
 				    <ListItem primaryText="Ten Thousand Villages" secondaryText="Flagship store" />
-			    </a>
-			    <Divider inset={true}/>
-			    <Subheader inset={true}>Downtown Lancaster</Subheader>
+			    </a> 
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_vintage_antiques" target="_blank">
-				    <ListItem primaryText="Antiques/Vintage" leftIcon={<ImageLens />} />
+				    <ListItem primaryText="Antiques/Vintage" />
 			    </a>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_home" target="_blank">
-				    <ListItem primaryText="Decor" leftIcon={<ImageLens />} />
+				    <ListItem primaryText="Decor" />
 			    </a>
 			    <a href="http://visithistoriclancaster.com/things_to_do/shopping_fashion" target="_blank">
-				    <ListItem primaryText="Fashion" leftIcon={<ImageLens />} />
+				    <ListItem primaryText="Fashion" />
 			    </a>
 		    </List>
 	    </Tab>
