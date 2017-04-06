@@ -83,6 +83,13 @@ var ThingsToDo = React.createClass({
 			    <a href="http://www.squareonecoffee.com/lancaster" target="_blank">
 				    <ListItem primaryText="Square One Coffee" secondaryText="Coffee shop" />
 			    </a>
+			    <a href="https://www.isaacsrestaurants.com/locations/downtown-lancaster/" target="_blank">
+				    <ListItem primaryText="Isaac's Downtown Bar and Grill" secondaryText="Sandwiches" />
+			    </a>
+			    <a href="http://www.centralmarketlancaster.com/" target="_blank">
+				    <ListItem primaryText="Central Market" secondaryText="One of America’s oldest farmers’ markets" />
+			    </a>
+
 			    <a href="http://www.chestnuthillcafe.com/" target="_blank">
 				    <ListItem primaryText="Chestnut Hill Cafe" secondaryText="Cafe" />
 			    </a>
@@ -192,6 +199,12 @@ var ThingsToDo = React.createClass({
 		    <List>
 			    <a href="http://www.squareonecoffee.com/lancaster" target="_blank">
 				    <ListItem primaryText="Square One Coffee" secondaryText="Coffee shop" />
+			    </a>
+			    <a href="https://www.isaacsrestaurants.com/locations/downtown-lancaster/" target="_blank">
+				    <ListItem primaryText="Isaac's Downtown Bar and Grill" secondaryText="Sandwiches" />
+			    </a>
+			    <a href="http://www.centralmarketlancaster.com/" target="_blank">
+				    <ListItem primaryText="Central Market" secondaryText="One of America’s oldest farmers’ markets" />
 			    </a>
 			    <a href="http://www.chestnuthillcafe.com/" target="_blank">
 				    <ListItem primaryText="Chestnut Hill Cafe" secondaryText="Cafe" />
