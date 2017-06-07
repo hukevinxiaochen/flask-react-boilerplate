@@ -6,7 +6,9 @@ var Accommodations = React.createClass({
         return (
             <div className="content">
 		    <h1>Accommodations</h1>
-		    <p>N.B. On Saturday afternoon, a bus will provide complimentary shuttle service from the Hilton Garden Inn and the Fairfield Inn to Rock Ford Plantation.  The bus will make return trips to the hotels later in the evening.  Details about the timing of the trips will be forthcoming.
+		    <p>On Saturday afternoon, a yellow school bus will provide complimentary shuttle service from the Hilton Garden Inn and the Fairfield Inn to Rock Ford Plantation.</p><br/>
+		    <p>The bus will depart from the hotels at 4:30 pm.</p><br />
+		    <p>The bus will make return trips to the hotels around 9:30 pm after the cake cutting and around 10:30 pm after the reception.
 		    </p>
 		    <h2>
 			    <a href="http://lancaster.hgi.com" 

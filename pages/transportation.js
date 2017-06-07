@@ -25,10 +25,10 @@ var Transportation = React.createClass({
 		    </List>
 
 		    <h2>Around Lancaster</h2>
-			<p>
-			On Saturday afternoon, a bus will provide complimentary shuttle service from the Hilton Garden Inn and the Fairfield Inn to Rock Ford Plantation.  The bus will make return trips to the hotels later in the evening.  Details about the timing of the trips will be forthcoming.
-			</p> 
-		    {/*<div className="centerify">
+			<p>On Saturday afternoon, a yellow school bus will provide complimentary shuttle service from the Hilton Garden Inn and the Fairfield Inn to Rock Ford Plantation.</p><br />
+			<p>The bus will depart from the hotels at 4:30 pm.</p><br />
+		        <p>The bus will make return trips to the hotels around 9:30 pm after the cake cutting and around 10:30 pm after the reception.</p>
+		{/*<div className="centerify">
 			    <RaisedButton label="Sign Up for Email Updates" secondary={true} />
 		    </div>*/}
 		{/*<h2>To and From Lancaster</h2>
