@@ -31,6 +31,7 @@ import Registry from './pages/registry';
 import RehearsalDinner from './pages/rehearsaldinner';
 import Attire from './pages/attire';
 import Brunch from './pages/brunch';
+import Photos from './pages/photos'
 
 // This component is not linked into the routing system
 import Updates from './pages/updates';
@@ -55,7 +56,8 @@ ReactDOM.render((
             <Route path="/accommodations" component={Accommodations} />
             <Route path="/transportation" component={Transportation} />
             <Route path="/things-to-do" component={ThingsToDo} /> 
-	    <Route path="/registry" component={Registry} /> 
+	    <Route path="/registry" component={Registry} />
+	    <Route path="/photos" component={Photos} />
         </Route>
     </Router>
 ), document.getElementById('app'));
