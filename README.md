@@ -36,6 +36,13 @@ Also use [npm][npm] to get yourself some JavaScript dev tools you will want at t
 
 `npm install -g browserify`
 
+## Build
+
+
+## Adding pages
+
+You need to change `app.js`, `index.js`, and create a new file in `pages/`.
+
 [flask]: http://flask.pocoo.org/
 [react]: http://facebook.github.io/react
 [gwatchify]: https://github.com/gulpjs/gulp/blob/master/docs/recipes/fast-browserify-builds-with-watchify.md
