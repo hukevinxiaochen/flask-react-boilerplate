@@ -25,9 +25,6 @@
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.10",
     "@babel/preset-react": "^7.12.10",
-    "babelify": "^7.3.0",
-    "markdown-it": "^6.0.2",
-    "parcel-bundler": "^1.12.4",
-    "watchify": "^3.7.0"
+    "markdown-it": "^6.0.2"
   }
 }
