@@ -21,7 +21,7 @@ import MediaQuery from 'react-responsive';
 
 // node_modules/material-ui
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import { MuiThemeProvider as V0MuiThemeProvider } from 'material-ui';
 import AppBar from 'material-ui/AppBar';
 
 // Custom Components
@@ -57,7 +57,7 @@ var App = React.createClass({
     },
     render: function () {
         return(
-            <MuiThemeProvider muiTheme={muiTheme}>
+            <V0MuiThemeProvider muiTheme={muiTheme}>
                 <div>
                     <MediaQuery maxWidth={840}>
                         <AppBar title="E &amp; K" 
@@ -70,7 +70,7 @@ var App = React.createClass({
                         {this.props.children}
                     </section>
                 </div>
-            </MuiThemeProvider>
+            </V0MuiThemeProvider>
         );
     }
 });

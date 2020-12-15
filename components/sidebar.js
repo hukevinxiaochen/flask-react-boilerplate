@@ -1,6 +1,6 @@
 import React from 'react';
-import Drawer from 'material-ui/Drawer';
-import MenuItem from 'material-ui/MenuItem';
+import Drawer from '@material-ui/core/Drawer';
+import { MenuItem } from '@material-ui/core';
 import Link from 'react-router/lib/Link';
 import IndexLink from 'react-router/lib/IndexLink'
 
