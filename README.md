@@ -30,14 +30,17 @@ just type the following while in your working directory:
 
 It will read the `package.json` supplied by this repo.
 
-Also use [npm][npm] to get yourself some JavaScript dev tools you will want at the global level.
+
+## Build
+
+Use [npm][npm] to get a build tool to transpile and bundle the react code.
 
 * [browserify][brwsfy]
 
 `npm install -g browserify`
+`npm run build`
 
-## Build
-
+Should run `browserify -t babelify index.js > static/bundle.js`.
 
 ## Adding pages
 
