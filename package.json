@@ -2,14 +2,14 @@
   "name": "wedding-website",
   "version": "0.1.0",
   "description": "A wedding website to learn front-end design.",
-  "main": "index.js",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/hukevinxiaochen/react-js-boilerplate"
   },
   "scripts": {
-    "dev": "parcel index.js",
-    "build": "parcel build index.js",
+    "dev": "echo No dev specified",
+    "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kevin Hu",
@@ -25,6 +25,9 @@
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.10",
     "@babel/preset-react": "^7.12.10",
-    "markdown-it": "^6.0.2"
+    "babel-loader": "^8.2.2",
+    "markdown-it": "^6.0.2",
+    "webpack": "^5.10.3",
+    "webpack-cli": "^4.2.0"
   }
 }
