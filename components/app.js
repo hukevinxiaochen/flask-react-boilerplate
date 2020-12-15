@@ -61,7 +61,7 @@ var App = React.createClass({
                 <div>
                     <MediaQuery maxWidth={840}>
                         <AppBar title="E &amp; K" 
-                            onLeftIconButtonTouchTap={this.toggleSideBar} />
+                            onLeftIconButtonClick={this.toggleSideBar} />
                     </MediaQuery>
                     <SideBar pages={pages}
                         ref={(ref) => this.drawer = ref}

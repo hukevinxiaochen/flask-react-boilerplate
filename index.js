@@ -8,10 +8,6 @@
  * - react-responsive
 */
 
-// Hack required by Material-UI or something
-var injectTapEventPlugin = require("react-tap-event-plugin");
-injectTapEventPlugin();
-
 // React
 var React = require('react');
 var ReactDOM = require('react-dom');
